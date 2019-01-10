@@ -1,21 +1,31 @@
-package csdn_ÔËËã·û;
+package csdn_è¿ç®—ç¬¦;
 
 public class Jisuan {
 
 //	public static void main(String[] args) {
 //		boolean a=false;
 //		boolean b=true;
-//		System.out.println(!a);//½á¹ûÎªtrue
-//		System.out.println(!b);//½á¹ûÎªfalse
+//		System.out.println(!a);//ç»“æœä¸ºtrue
+//		System.out.println(!b);//ç»“æœä¸ºfalse
 //	}
+	
+	/*
+	7çš„äºŒè¿›åˆ¶ä½æ˜¯0000 0111ï¼Œ 5çš„äºŒè¿›åˆ¶ä½æ˜¯0000 0101 ï¼Œ é‚£ä¹ˆå°±æ˜¯111 & 101
+	ç”±æŒ‰ä½ä¸è¿ç®—è§„åˆ™å¾—çŸ¥111 & 101ç­‰äº0000 0101ï¼Œæœ€ç»ˆå€¼ä¸º5
+	*/
+//	public static void main(String[] args) {
+//		int a=7;
+//		int b=5;
+//		System.out.println(a&b);//ç»“æœæ˜¯5
+//	}	
 	
 //	
 //	public static void main(String[] args) {
 //		int a=10;
-//		System.out.println(Integer.toBinaryString(a));//Êä³öaµÄ¶ş½øÖÆĞÎÊ½£¬½á¹û1010
-//		System.out.println(Integer.toBinaryString(a>>3));//ÓĞ·ûºÅÓÒÒÆÈıÎ»£¬½á¹û1
-//		System.out.println(Integer.toBinaryString(a<<3));//×óÒÆÈıÎ»£¬½á¹û1010000
-//		System.out.println(Integer.toBinaryString(a>>>3));//ÎŞ·ûºÅÓÒÒÆÈıÎ»£¬½á¹û1
+//		System.out.println(Integer.toBinaryString(a));//è¾“å‡ºaçš„äºŒè¿›åˆ¶å½¢å¼ï¼Œç»“æœ1010
+//		System.out.println(Integer.toBinaryString(a>>3));//æœ‰ç¬¦å·å³ç§»ä¸‰ä½ï¼Œç»“æœ1
+//		System.out.println(Integer.toBinaryString(a<<3));//å·¦ç§»ä¸‰ä½ï¼Œç»“æœ1010000
+//		System.out.println(Integer.toBinaryString(a>>>3));//æ— ç¬¦å·å³ç§»ä¸‰ä½ï¼Œç»“æœ1
 //	}
 	
 //	public static void main(String[] args) {
@@ -30,7 +40,7 @@ public class Jisuan {
 //	public static void main(String[] args) {
 //		String name="csdn";
 //		boolean result=name instanceof String;
-//		System.out.println(result);//½á¹ûtrue
+//		System.out.println(result);//ç»“æœtrue
 //	}
 	
 //	public static void main(String[] args) {
@@ -41,16 +51,16 @@ public class Jisuan {
 //		System.out.println(!a);//false
 //		System.out.println(!b);//true
 //	}
-	
+		
 	public static void main(String[] args){
 	      int a , b;
 	      a = 10;
-	      //Èç¹ûa=1³ÉÁ¢£¬ÔòbµÄÖµÎª20£¬²»³ÉÁ¢£¬bµÄÖµÎª30
+	      //å¦‚æœa=1æˆç«‹ï¼Œåˆ™bçš„å€¼ä¸º20ï¼Œä¸æˆç«‹ï¼Œbçš„å€¼ä¸º30
 	      b = (a == 1) ? 20 : 30;
-	      System.out.println( "Value of b is : " +  b );//½á¹ûValue of b is :30
+	      System.out.println( "Value of b is : " +  b );//ç»“æœValue of b is :30
 	 
-	      //Èç¹ûa=10³ÉÁ¢£¬bµÄÖµÎª20£¬²»³ÉÁ¢£¬bµÄÖµÎª30
+	      //å¦‚æœa=10æˆç«‹ï¼Œbçš„å€¼ä¸º20ï¼Œä¸æˆç«‹ï¼Œbçš„å€¼ä¸º30
 	      b = (a == 10) ? 20 : 30;
-	      System.out.println( "Value of b is : " + b );//½á¹ûValue of b is :20
+	      System.out.println( "Value of b is : " + b );//ç»“æœValue of b is :20
 	   }
 }
